@@ -1,8 +1,8 @@
 augmentation: true
-batch_size: 4
+batch_size: 20
 early_stopping: 50
 epochs: 80
-lr: 1.0e-05
+lr: 0.001
 momentum: 0.9
 name: UNET
 nesterov: false
