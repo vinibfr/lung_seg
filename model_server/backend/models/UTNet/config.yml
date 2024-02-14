@@ -1,0 +1,21 @@
+augmentation: false
+aux_loss: false
+base_chan: 32
+batch_size: 20
+block_list: '1234'
+early_stopping: 50
+epochs: 80
+lr: 0.0001
+momentum: 0.9
+name: UTNet
+nesterov: false
+num_blocks:
+- 1
+- 1
+- 1
+- 1
+num_class: 1
+num_workers: 14
+optimizer: Adam
+reduce_size: 8
+weight_decay: 0.0001
